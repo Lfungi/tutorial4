@@ -1,0 +1,73 @@
+/* General Styles for all pages */
+* {
+  font-family: 'Calibri', sans-serif; /* Use Calibri font */
+}
+
+/* Style for the body element */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Styling for the headings (h1, h2, h3) */
+h1, h2 {
+  color: red; /* Red color for headings */
+  font-family: 'Courier New', Courier, monospace; /* Courier New font */
+}
+
+h3 {
+  color: blue; /* You can change this color if you want */
+}
+
+/* Link styles */
+a {
+  color: red; /* Non-visited links will be red */
+  text-decoration: none;
+}
+
+a:visited {
+  color: green; /* Visited links will be green */
+}
+
+/* Styling for unordered lists */
+ul {
+  list-style-type: square; /* Square bullets for unordered lists */
+}
+
+/* Styling for ordered lists */
+ol {
+  list-style-type: lower-roman; /* Lower roman numerals for ordered lists */
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+table tr:hover {
+  background-color: #d0e6f2; /* Light blue when hovered */
+}
+
+/* Styling for buttons */
+button:hover {
+  background-color: red; /* Red on hover */
+}
+
+button:active {
+  background-color: green; /* Green when clicked */
+}
